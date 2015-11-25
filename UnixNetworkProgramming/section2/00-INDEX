@@ -1,0 +1,3 @@
+00-INDEX : this file
+C_Start-up_Function.c : Section 2.2,P15, printf hello world program
+envp.c : prints the valuse of all environment strings 
