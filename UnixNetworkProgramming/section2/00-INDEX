@@ -2,3 +2,5 @@
 C_Start-up_Function.c : Section 2.2,P15, printf hello world program
 envp.c : prints the value of all environment strings 
 environ.c : prints the value of all environment strings
+getenv.c: prints the value of HOME variable
+pid.c: prints the value of PID and parent process ID of a process
