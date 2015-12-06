@@ -1,0 +1,3 @@
+00-INDEX: this file
+list.h: define data structure linked list.
+count.c: C program to count number of input characters. 
