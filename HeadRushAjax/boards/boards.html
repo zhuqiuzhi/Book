@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Custom Boards Report</title>
+		<title></title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, inital-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="boards.css"/>
 		<script type="text/script" src="boards.js" async>
 		</script>
@@ -12,21 +13,21 @@
 		<noscript>
 			<p>浏览器被禁止运行javascript，页面无法正常显示!</p>
 		</noscript>
-		<h1>Boards 'R'US :: Custom Boards Report<h1>
+		<h1>Boards 'R'US :: Custom Boards Report</h1>
 		<div id="boards">
 		<table>
 			<tr>
 				<th>Snowbords Sold</th><td><span id="boards-sold">1012</span></td>
 			</tr>
 			<tr>
-				<th>What I Sell'em For</th><td><span id="price">$249.95</span></td>
+				<th>What I Sell'em For</th><td>$<span id="price">249.95</span></td>
 			</tr>
 			<tr>
-				<th>What it Costs Me</th><td><span id="cost">$84.22</span></td>
+				<th>What it Costs Me</th><td>$<span id="cost">84.22</span></td>
 			</tr>
 		</table>
 		<h2>Cash for the Slopes:
-			<span id="cash">$167718.76</span>
+			$<span id="cash">167718.76</span>
 		</h2>
 		<form method="GET" action="getUpdateBoardSales.php">
 			<input value="Show Me the Money" type="button" onclick="getBoardsSold()"/>
