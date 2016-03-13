@@ -1,0 +1,33 @@
+# Normal rules
+*.o
+*.class
+*.o.*
+*.a
+*.s
+*.ko
+*.so
+*.so.dbg
+*.mod.c
+*.i
+*.lst
+*.symtypes
+*.order
+*.elf
+*.bin
+*.tar
+*.gz
+*.bz2
+*.lzma
+*.xz
+*.lz4
+*.lzo
+*.patch
+*.gcno
+*.dwo
+*.su
+
+# for Mac
+.DS_Store
+
+# cscope files
+cscope.*
