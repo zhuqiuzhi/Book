@@ -3,7 +3,7 @@ class Point {
 	public double y;
 }
 
-class MakePoint {
+class MiddlePoint{
 	public static void main(String[] argv) {
 		Point lowerLeft     = new Point();
 		Point upperRight    = new Point();
