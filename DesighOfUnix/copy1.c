@@ -1,6 +1,6 @@
 #include <fcntl.h>
 
-char buffer[2048];
+char buffer[2048]; /* copy buffer */
 int version = 1;  /* Chapter 2 explains this */
 
 void copy(int, int);
@@ -33,6 +33,6 @@ int main(int argc, char *argv[])
 void copy(int old, int new)
 {
 	int count;
-	while (count=read(old, buffer, sizeof(buffer)) > 0)
+	while ((count=read(old, buffer, sizeof(buffer))) > 0)
 		write(new, buffer, count);
 }
