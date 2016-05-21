@@ -1,4 +1,5 @@
 # Normal rules
+a.out
 *.o
 *.class
 *.o.*
