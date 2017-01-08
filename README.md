@@ -15,4 +15,5 @@
   * tcpipv2: [《TCP/IP Illustrated, Vol 2: The Implementation》](http://book.douban.com/subject/4707727/)
   * JavaProgramming:[《The Java Programming Language,Fourth Edition》](https://book.douban.com/subject/1479212/)
   * Hello_World:[《Hello World! Computer Programming for Kids and Other Beginers》](https://book.douban.com/subject/3120623/)
-  * IntroPython:[《Introducing Python](https://book.douban.com/subject/24807528/》)
+  * IntroPython:[《Introducing Python》](https://book.douban.com/subject/24807528/》)
+  * Go语言: [《Go 语言编程》](https://book.douban.com/subject/11577300/)
